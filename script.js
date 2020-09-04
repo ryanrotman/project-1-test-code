@@ -53,4 +53,12 @@ FIXME:
     - how do we work around if a user DOES NOT want to search for bars?
         - will need to write code that it will stop the function if no input is listed
         - or add another button in the modal that simply just closes the modal (.removeClass("is-active"))
+    - for radio buttons of modal
+        - adjust color styling of radio button text
+        - write code for getting value of selected radio button and adding that to search url parameters
+            (https://www.tutorialrepublic.com/faq/how-to-get-the-value-of-selected-radio-button-using-jquery.php)
+TODO:
+    - add functionality for selecting either bars or grocery stores
+        - muliple buttons for bar search or grocery search
+        - checkbox to modal to select either bar or grocery and adjust query url accordingly
 */
