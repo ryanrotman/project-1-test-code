@@ -41,7 +41,18 @@
             <!-- Any other Bulma elements you want -->
             <div class="columns">
                 <div class="column">
-                    <p class="has-text-centered" style="color: white;">To search for bars near you please enter in either a zipcode or address.</p>
+                    <p class="has-text-centered" style="color: white;">Would you like to search for a bar or grocery store?</p>
+                    <div class="control has-text-centered">
+                        <label class="radio">
+                          <input type="radio" name="answer" style="color: white;">
+                          Bar
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="answer" style="color: white;">
+                          Grocery Store
+                        </label>
+                      </div>
+                    <p class="has-text-centered" style="color: white;">Please enter in either a zipcode or address.</p>
                     <br>
                     <input class="input" id="zip-only" type="number" placeholder="ZIP">
                     <br>
